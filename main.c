@@ -31,7 +31,7 @@ int main(void) {
   char *g = readline("Enter an int: ");
   int a = atoi(g); 
   printf("sum is %d.\n", sum_n(a));
-  char *h = readline("Enter an string: ");
+  char *h = readline("Enter a string: ");
   print_n(h, a);
   return 0;
 }
